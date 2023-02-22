@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="lay" class="overlay"></div>
+    <header>
+        <div class="container">
+            <div class="head-logo">
+                <div class="logo">logo</div>
+                <form action="#" method="post" target="_blanck">
+                   <input id="login_button" type="button" value="Login" />
+                   <input id="signup_button" type="button" value="Sing up" />
+                </form>
+
+                <form id="login" class="contant login" method="post" target="_blank">
+                    <div  id="close1" class="close" ></div>
+                    <input type="text" name="user" id="user" placeholder=" Your Name :" />
+                    <input type="password" name="pass" placeholder=" Password" />
+                    <div id="close" class="btn">Regist</div>
+                </form>
+
+                <form id="singup" class="contant login " method="post" target="_blank">
+                    <div  id="close2" class="close" ></div>
+                    <input type="text" name="user" id="user" placeholder=" Your Name :" />
+                    <input type="email" name="email" placeholder=" user@gmail.org" />
+                    <input type="password" name="pass" placeholder=" Password" />
+                    <input type="password" name="pass" placeholder=" convert Password" />
+                    <input type="text" name="mobile" placeholder=" Mobile Phone" />
+                    <div id="close" class="btn">Regist</div>
+                </form>
+            </div>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact-us.html">contact us</a></li>
+            </ul>
+
+
+        </div>
+    </header>
+    <div class="contact-us">
+        <div class="container">
+            <div class="dots dots-up"></div>
+            <div class="dots dots-down"></div>
+            <form class="contant" name="formSign" action="register.html" method="post" target="_blank">
+                <span class="error" id="user_error"></span>
+                <input type="text" name="user" id="user" placeholder=" Your Name :" />
+                <input type="email" name="email" placeholder=" user@gmail.org" />
+                <input type="text" name="mobile" placeholder=" Mobile Phone" />
+                <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+                <div class="btn" onclick="shack_capital()">
+                    <a href="register.html">register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------- -->
+    <footer>
+        <div class="spikes"></div>
+        <div class="container">
+            <div class="box">
+                <h1 class="logo">logo</h1>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Sudia Arabia , Madena</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: 24 / 7</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+966538981614</span>
+                        <span>+966*********</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            Made With &lt;3 By <span class="logo">Seham Aljahni</span>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
